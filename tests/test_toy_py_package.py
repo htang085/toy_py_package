@@ -1,21 +1,20 @@
-#!/usr/bin/env python
-
-"""Tests for `toy_py_package` package."""
-
-
 import unittest
+from toy_py_package import add_numbers  # Import the function you want to test
 
-from toy_py_package import toy_py_package
-
-
-class TestToy_py_package(unittest.TestCase):
+class TestToyPyPackage(unittest.TestCase):
     """Tests for `toy_py_package` package."""
 
     def setUp(self):
         """Set up test fixtures, if any."""
+        pass  # You can leave this empty for now if you don’t need any setup
 
     def tearDown(self):
         """Tear down test fixtures, if any."""
+        pass  # You can leave this empty for now if you don’t need any teardown
 
-    def test_000_something(self):
-        """Test something."""
+    def test_add_numbers(self):
+        """Test the `add_numbers` function."""
+        self.assertEqual(add_numbers(2, 3), 5)  # Check 2 + 3 = 5
+        self.assertEqual(add_numbers(-1, 1), 0)  # Check -1 + 1 = 0
+        self.assertEqual(add_numbers(0, 0), 0)  # Check 0 + 0 = 0
+        self.assertEqual(add_numbers(100, 200), 300)  # Check 100 + 200 = 300
