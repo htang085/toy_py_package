@@ -1,14 +1,14 @@
 toy_py_package
 ==============
 
-.. image:: https://img.shields.io/pypi/v/toy_py_package.svg
-   :target: https://pypi.python.org/pypi/toy_py_package
+.. image:: https://img.shields.io/badge/TestPyPI-toy__py__package-blue
+   :target: https://test.pypi.org/project/toy-py-package/
 
-.. image:: https://img.shields.io/travis/htang085/toy_py_package.svg
-   :target: https://travis-ci.com/htang085/toy_py_package
+.. image:: https://github.com/htang085/toy_py_package/actions/workflows/tests.yml/badge.svg
+   :target: https://github.com/htang085/toy_py_package/actions
 
 .. image:: https://readthedocs.org/projects/toy-py-package/badge/?version=latest
-   :target: https://toy-py-package.readthedocs.io/en/latest/?version=latest
+   :target: https://toy-py-package.readthedocs.io/en/latest/
    :alt: Documentation Status
 
 A simple Python package to demonstrate package creation and distribution for DSCI 524.
